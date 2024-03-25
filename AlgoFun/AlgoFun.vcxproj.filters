@@ -19,6 +19,9 @@
     <Filter Include="LeetCode\BinarySearch">
       <UniqueIdentifier>{3c47ae2a-a709-4093-a30b-9d048b7eb47f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LeetCode\DailyChallenge">
+      <UniqueIdentifier>{3ac52990-459b-4fe0-bc5f-59f7aef41bdb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlgoFun.cpp">
@@ -31,6 +34,9 @@
     </ClInclude>
     <ClInclude Include="LeetCode\BinarySearch\problem_441.h">
       <Filter>LeetCode\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode\DailyChallenge\problem_442.h">
+      <Filter>LeetCode\DailyChallenge</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

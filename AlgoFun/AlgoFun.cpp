@@ -2,6 +2,7 @@
 //
 
 #include "LeetCode/BinarySearch/problem_234.h"
+#include "LeetCode/DailyChallenge/problem_442.h"
 
 #include <iostream>
 #include <math.h>       /* log10 */
@@ -58,9 +59,7 @@ int main()
 
     std::cout << "Res = " << res << std::endl;*/
 
-	bool res = PalindromeLinkedList::Solution::test();
-
-	std::cout << "Res = " << res << std::endl;
+	FindAllDuplicatesInArray::Solution::test();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
